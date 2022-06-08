@@ -1,0 +1,3 @@
+1. While training, the labels are 0, 1, 2, 3, so we should transfer them to the improved one-hot label like [δ, 1, δ, δ]. And the code is in line 131-135 in networks.py. 
+While testing, we directly feed the one-hot label to the network, so we should remove line 131-135 in networks.py. 
+2. We only realize the process of batchsize==1 due to the limition of GPU. You could rewrite the code if you need a larger batchsize.
