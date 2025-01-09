@@ -1,2 +1,2 @@
 # UMDST
-Unpaired multi-domain stain transfer for kidney histopathological images
+AAAI 2022: Unpaired multi-domain stain transfer for kidney histopathological images
